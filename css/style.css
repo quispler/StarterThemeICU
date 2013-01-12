@@ -533,7 +533,7 @@ body {
 .g2,
 .g3 {
   display: block;
-  position: relative;
+  float: left;
 }
 /*; margin-left: 1%; margin-right: 1%}*/
 
@@ -590,10 +590,12 @@ Change widths as necessary
   #sidebar {
     width: 17em;
     float: left;
-    background: #2c2c2c;
-    border-right: 1px solid #2e2f2f;
-    padding-top: 2em;
     position: fixed;
+  }
+  #upperside {
+    padding: 2em 0 4.5em 0;
+    background: url(../images/pfeil.png);
+    background-size: 100% 100%;
   }
   .header {
     margin: 2em -200em;
@@ -605,7 +607,7 @@ Change widths as necessary
   }
   .nav li {
     display: inline-block;
-    padding: 0.1em 1em;
+    padding: 0;
   }
   #container {
     float: right;
@@ -614,7 +616,11 @@ Change widths as necessary
     margin: 0 0 0 -17em;
   }
   .main {
-    margin: 0 0 0 18em;
+    margin: -13em 0 0 18em;
+    padding: 14em 0 0;
+    background: url(../images/bandheader.png) no-repeat;
+    background-position: top right;
+    background-size: 100% 11em;
   }
 }
 /* LANDSCAPE TABLET/NETBOOK/LAPTOP */
