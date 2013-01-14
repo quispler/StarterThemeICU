@@ -29,9 +29,9 @@
      inkscape:window-height="1138"
      id="namedview3020"
      showgrid="false"
-     inkscape:zoom="4.6461537"
+     inkscape:zoom="1.6426634"
      inkscape:cx="85.264044"
-     inkscape:cy="166.63173"
+     inkscape:cy="69.228939"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -71,7 +71,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -221,19 +221,6 @@
        y2="373.22388"
        gradientUnits="userSpaceOnUse"
        gradientTransform="translate(-0.28992061,1.4432163)" />
-    <filter
-       inkscape:collect="always"
-       id="filter4033"
-       x="-0.016424965"
-       width="1.0328499"
-       y="-0.17289852"
-       height="1.3457969"
-       color-interpolation-filters="sRGB">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="5.9479163"
-         id="feGaussianBlur4035" />
-    </filter>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3814"
@@ -272,8 +259,8 @@
   </g>
   <g
      id="text3804-0"
-     style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter4033)"
-     transform="matrix(0.38099072,0.00196835,-0.00186746,0.36146267,-41.38468,64.872742)">
+     style="fill:#000000;fill-opacity:1;stroke:none"
+     transform="matrix(0.38099072,0.00206391,-0.00186746,0.37901237,-41.38468,58.142424)">
     <path
        id="path4127-6"
        d="m 326.85391,422.41002 c -8e-5,13.57304 -3.76827,23.94963 -11.30459,31.12981 -7.53645,7.1802 -18.3911,10.77029 -32.56397,10.77029 l -23.00287,0 0,-82.22543 25.42127,0 c 13.08553,8e-5 23.26527,3.52456 30.53926,10.57345 7.27386,7.04903 10.91082,16.96631 10.9109,29.75188 z m -14.17292,0.44993 c -6e-5,-19.68454 -9.20495,-29.52684 -27.61469,-29.52691 l -11.64204,0 0,59.67249 9.56109,0 c 19.79704,10e-6 29.69558,-10.0485 29.69564,-30.14558 z"
